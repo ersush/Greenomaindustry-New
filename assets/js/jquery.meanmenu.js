@@ -43,9 +43,9 @@
 						meanExpand: "+", // single character you want to represent the expand for ULs
 						meanContract: "-", // single character you want to represent the contract for ULs
 						meanRemoveAttrs: false, // true to remove classes and IDs, false to keep them
-						onePage: false, // set to true for one page sites
+						onePage: false, // set to true for one Page sites
 						meanDisplay: "block", // override display method for table cell based layouts e.g. table-cell
-						removeElements: "" // set to hide page elements
+						removeElements: "" // set to hide Page elements
 				};
 				options = $.extend(defaults, options);
 
@@ -225,7 +225,7 @@
 											jQuery(removeElements).addClass('mean-remove');
 									});
 
-									// for one page websites, reset all variables...
+									// for one Page websites, reset all variables...
 									if ( onePage ) {
 										jQuery('.mean-nav ul > li > a:first-child').on( "click" , function () {
 											jQuery('.mean-nav ul:first').slideUp();

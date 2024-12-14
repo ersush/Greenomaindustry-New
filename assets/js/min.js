@@ -45,7 +45,7 @@
 // 42. portfolio Section
 // 43. strategy Section 
 // 44. Charchater Come long Animation 
-// 45. page shaking fix js 
+// 45. Page shaking fix js 
 // 46. Accordion fix js 
 // 47. Position Sticky js
 // 48. bd one by one Show animation 
@@ -989,8 +989,8 @@
 
 		function parallaxIt(e, target, movement) {
 			var $this = $(btn);
-			var relX = e.pageX - $this.offset().left;
-			var relY = e.pageY - $this.offset().top;
+			var relX = e.PageX - $this.offset().left;
+			var relY = e.PageY - $this.offset().top;
 
 			gsap.to(target, 0.5, {
 				x: ((relX - $this.width() / 2) / $this.width()) * movement,
@@ -1464,8 +1464,8 @@
 
 		function parallaxIt(e, target, movement) {
 			var $this = $(btn);
-			var relX = e.pageX - $this.offset().left;
-			var relY = e.pageY - $this.offset().top;
+			var relX = e.PageX - $this.offset().left;
+			var relY = e.PageY - $this.offset().top;
 
 			gsap.to(target, 0.5, {
 				x: ((relX - $this.width() / 2) / $this.width()) * movement,

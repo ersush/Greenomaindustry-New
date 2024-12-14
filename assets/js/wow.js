@@ -514,7 +514,7 @@
       key: 'isVisible',
       value: function isVisible(box) {
         var offset = box.getAttribute('data-wow-offset') || this.config.offset;
-        var viewTop = this.config.scrollContainer && this.config.scrollContainer.scrollTop || window.pageYOffset;
+        var viewTop = this.config.scrollContainer && this.config.scrollContainer.scrollTop || window.PageYOffset;
         var viewBottom = viewTop + Math.min(this.element.clientHeight, getInnerHeight()) - offset;
         var top = this.offsetTop(box);
         var bottom = top + box.clientHeight;

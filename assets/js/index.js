@@ -239,19 +239,19 @@ export default class BeforeAfter {
 		let valueMoveTransform = 0
 		let valueMoveCSS = 0
 		let valueMovePicture = 0
-		let pageX = 0
-		let pageY = 0
+		let PageX = 0
+		let PageY = 0
 
-		pageX = this.hasTouch ? e.touches[0].pageX : this.hasMSPointer ? e.pageX : e.pageX
-		pageY = this.hasTouch ? e.touches[0].pageY : this.hasMSPointer ? e.pageY : e.pageY
+		PageX = this.hasTouch ? e.touches[0].PageX : this.hasMSPointer ? e.PageX : e.PageX
+		PageY = this.hasTouch ? e.touches[0].PageY : this.hasMSPointer ? e.PageY : e.PageY
 		const elementBoundingClientRect = this.elements.container.getBoundingClientRect()
 
 		if (this.options.orientation === 'horizontal') {
-			valueMoveCSS = parseInt(pageX - elementBoundingClientRect.x)
+			valueMoveCSS = parseInt(PageX - elementBoundingClientRect.x)
 			valueMoveTransform = `${valueMoveCSS}px, 0, 0`
 			valueMovePicture = this.widthElement - valueMoveCSS
 		} else if (this.options.orientation === 'vertical') {
-			valueMoveCSS = parseInt(pageY - elementBoundingClientRect.y)
+			valueMoveCSS = parseInt(PageY - elementBoundingClientRect.y)
 			valueMoveTransform = `0, ${valueMoveCSS}px, 0`
 			valueMovePicture = this.heightElement - valueMoveCSS
 		}

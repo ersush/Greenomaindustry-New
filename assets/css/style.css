@@ -1,42 +1,42 @@
 /*==============================================
-Template Name: Echofy - Echofy NFT Portfolio HTML5 Template 
+Template Name: Greenoma Industries - Greenoma Industries NFT Portfolio HTML5 Template 
 Author:  https://themeforest.net/user/dreamit-solution
 Description: Description
 Version: 1.0.0
-Text Domain: Echofy
+Text Domain: Greenoma Industries
 Tags: consulting, finance, corporate, business, consultant, multipurpose, technology, it-solution, software, agency, company, portfolio, bangking, insurance, digital-agency, digital-marketing.
 ================================================*/
 
 /*TABLE OF CONTENTS*/
 /*=====================
-01. Echofy Header Menu Area
-02. Echofy Nav Menu Area
-03. Echofy Hero Area
-04. Echofy About Area
-05. Echofy Service Area
-06. Echofy Services Details Area
-07. Echofy Faqs Area
-08. Echofy Skill Area
-09. Echofy Counter Area
-10. Echofy Process Area
-11. Echofy Project Area
-12. Echofy Project Details Area
-13. Echofy Team Area
-14. Echofy Testimonial Area
-15. Echofy Brand Area
-16. Echofy Donatione Area
-17. Echofy Donation Details Area
-18. Echofy Blog Area
-19. Echofy Blog List Area
-20. Echofy Blog 2column
-21. Echofy Blog Details Area
-22. Echofy Contact Area
-23. Echofy Footer Area
-24. Echofy Loader
-25. Echofy Scrollup
-26. Echofy Sideber
-27. Echofy Search
-28. Echofy Top Menu
+01. Greenoma Industries Header Menu Area
+02. Greenoma Industries Nav Menu Area
+03. Greenoma Industries Hero Area
+04. Greenoma Industries About Area
+05. Greenoma Industries Service Area
+06. Greenoma Industries Services Details Area
+07. Greenoma Industries Faqs Area
+08. Greenoma Industries Skill Area
+09. Greenoma Industries Counter Area
+10. Greenoma Industries Process Area
+11. Greenoma Industries Project Area
+12. Greenoma Industries Project Details Area
+13. Greenoma Industries Team Area
+14. Greenoma Industries Testimonial Area
+15. Greenoma Industries Brand Area
+16. Greenoma Industries Donatione Area
+17. Greenoma Industries Donation Details Area
+18. Greenoma Industries Blog Area
+19. Greenoma Industries Blog List Area
+20. Greenoma Industries Blog 2column
+21. Greenoma Industries Blog Details Area
+22. Greenoma Industries Contact Area
+23. Greenoma Industries Footer Area
+24. Greenoma Industries Loader
+25. Greenoma Industries Scrollup
+26. Greenoma Industries Sideber
+27. Greenoma Industries Search
+28. Greenoma Industries Top Menu
 
 =======================*/
 
@@ -44,7 +44,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 
 /*---=================================
-   <!--Echofy Top Header Area Css-->
+   <!--Greenoma Industries Top Header Area Css-->
 ==================================---*/
 .top-header-area {
     padding: 11px 0;
@@ -106,7 +106,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 
 /*---=================================
-   <!--Echofy Header Area Css-->
+   <!--Greenoma Industries Header Area Css-->
 ==================================---*/
 
 .header-area {
@@ -135,7 +135,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 .header-menu ul li a {
     display: inline-block;
-    color: #fff;
+    color: black;
     padding: 33px 0;
     font-size: 17px;
     font-weight: 500;
@@ -220,7 +220,8 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     width: 100%;
     -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
-    background: #111111 !important;
+    /* background: #111111 !important; */
+    background: white !important;
     transition: 0.5s;
     z-index: 999 !important;
     -webkit-animation: 300ms running fadeInDown;
@@ -293,10 +294,10 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 
 /*---=================================
-   <!--Echofy Hero Area Css-->
+   <!--Greenoma Industries Hero Area Css-->
 ==================================---*/
 .hero-area {
-    background: url(../images/home1/hero-bg-1.jpg);
+    background: url(../images/Index_Images/chatgpt.bg.img3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -305,9 +306,9 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     position: relative;
 }
 
-.hero-style.hero-area{
-    background: url(../images/home1/hero-bg2.jpg);
-}
+/* .hero-style.hero-area{
+    background: url(../images/Index_Images/aboutUsMainImg20.jpg);
+} */
 
 .hero-content h4 {
     color: #4baf47;
@@ -410,13 +411,13 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 
 
-/*Echofy--button*/
-.echofy-button {
+/*Greenoma Industries--button*/
+.Greenoma Industries-button {
     margin-top: 40px;
     display: inline-block;
 }
 
-.echofy-button a {
+.Greenoma Industries-button a {
     display: inline-block;
     background: #49AF45;
     color: #fff;
@@ -429,11 +430,11 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     z-index: 1;
 }
 
-.echofy-button a:hover{
+.Greenoma Industries-button a:hover{
     color: #49AF45;
 }
 
-.echofy-button a:before{
+.Greenoma Industries-button a:before{
     position: absolute;
     content: "";
     width:0;
@@ -446,12 +447,12 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     transition: 0.5s;
 }
 
-.echofy-button a:hover:before{
+.Greenoma Industries-button a:hover:before{
     width: 100%;
     left: 0;
 }
 
-.echofy-button img {
+.Greenoma Industries-button img {
     position: relative;
     top: -2px;
     left: 4px;
@@ -459,7 +460,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     transition: 0.5s;
 }
 
-.echofy-button img.two {
+.Greenoma Industries-button img.two {
     position: relative;
     left: -58px;
     top: -2px;
@@ -469,18 +470,18 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     opacity: 0
 }
 
-.echofy-button:hover img.two{
+.Greenoma Industries-button:hover img.two{
     opacity: 1;
 }
 
 
-.echofy-button.two {
+.Greenoma Industries-button.two {
     display: inline-block;
     padding-left: 16px;
     border: transparent;
 }
 
-.echofy-button.two a {
+.Greenoma Industries-button.two a {
     display: inline-block;
     background: transparent;
     border: 2px solid #ffffff61;
@@ -491,21 +492,21 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 /*
 <!-- =====================================-->
-<!-- Start echofy-text-section  -->
+<!-- Start Greenoma Industries-text-section  -->
 <!-- =====================================-->*/
-.echofy-text-section {
+.Greenoma Industries-text-section {
     position: relative;
     background: #49AF45;
     z-index: 1;
     padding: 40px 0 44px;
 }
 
-.echofy-text-section .inner-container {
+.Greenoma Industries-text-section .inner-container {
     max-width: 1812px;
     margin: 0 auto;
 }
 
-.echofy-text-section .marquee {
+.Greenoma Industries-text-section .marquee {
     position: relative;
     --duration: 30s;
     --gap: 0px;
@@ -520,7 +521,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     gap:0px;
 }
 
-.echofy-text-section .marquee-block {
+.Greenoma Industries-text-section .marquee-block {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     display: -webkit-box;
@@ -537,24 +538,24 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     animation: scroll 30s linear infinite;
 }
 
-.echofy-text-section .marquee-block .content-box {
+.Greenoma Industries-text-section .marquee-block .content-box {
     position: relative;
     margin-right:0px;
 }
 
-.echofy-text-section .marquee-block .content-box:last-child {
+.Greenoma Industries-text-section .marquee-block .content-box:last-child {
     margin-right:0px;
 }
 
-.echofy-text-section .marquee-block .content-box:last-child::before {
+.Greenoma Industries-text-section .marquee-block .content-box:last-child::before {
     display: none;
 }
 
-.echofy-text-section .marquee-block .content-box .title{
+.Greenoma Industries-text-section .marquee-block .content-box .title{
     margin:0;
 }
 
-.echofy-text-section .marquee-block .content-box h6.title {
+.Greenoma Industries-text-section .marquee-block .content-box h6.title {
     display: inline-block;
     font-size: 30px;
     color: #fff;
@@ -562,7 +563,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     padding: 0 48px;
 }
 
-.echofy-text-section .marquee-block .content-box h6.title img {
+.Greenoma Industries-text-section .marquee-block .content-box h6.title img {
     position: relative;
     left: -49px;
 }
@@ -595,7 +596,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 
 /*---=================================
-   <!--Echofy About Area Css-->
+   <!--Greenoma Industries About Area Css-->
 ==================================---*/
 .about-area {
     background: url(../images/home1/about-bg.jpg);
@@ -770,7 +771,7 @@ p.section-desc {
 
 
 /*---=================================
-   <!--Echofy Service Area Css-->
+   <!--Greenoma Industries Service Area Css-->
 ==================================---*/
 .service-area {
     padding: 113px 0 125px;
@@ -791,7 +792,7 @@ p.section-desc {
     border-radius: 5px;
     position: relative;
     z-index: 1;
-    transition: 0.5s;
+    transition: 0.1s;
 }
 
 .single-service-box:hover .service-content{
@@ -932,7 +933,7 @@ p.section-desc {
 
 
 /*---=================================
-   <!--Echofy Skill Area Css-->
+   <!--Greenoma Industries Skill Area Css-->
 ==================================---*/
 
 .skill-area {
@@ -1122,7 +1123,7 @@ span.number {
 }
 
 /*---=================================
-   <!--Echofy Counter Area Css-->
+   <!--Greenoma Industries Counter Area Css-->
 ==================================---*/
 .counter-area {
     background: url(../images/home1/counter-bg.jpg);
@@ -1159,7 +1160,7 @@ span.number {
 
 
 /*---=================================
-   <!--Echofy Counter Area Css-->
+   <!--Greenoma Industries Counter Area Css-->
 ==================================---*/
 #poress-row {
     background: #F6F6EE;
@@ -1191,7 +1192,7 @@ span.number {
 
 
 /*---=================================
-   <!--Echofy Project Area Css-->
+   <!--Greenoma Industries Project Area Css-->
 ==================================---*/
 .project-area {
     background: url(../images/home1/project-bg.jpg);
@@ -1353,7 +1354,7 @@ a.project-button:hover i{
 
 
 /*---=================================
-   <!--Echofy Process Area Two-->
+   <!--Greenoma Industries Process Area Two-->
 ==================================---*/
 .process-area-two {
     background: #F6F6EE;
@@ -1436,7 +1437,7 @@ transform: rotate(360deg);
 
 
 /*---=================================
-   <!--Echofy Testimonial Area-->
+   <!--Greenoma Industries Testimonial Area-->
 ==================================---*/
 
 .testimonial-area {
@@ -1562,7 +1563,7 @@ transform: rotate(360deg);
 }
 
 /*---=================================
-   <!--Echofy Brand Area-->
+   <!--Greenoma Industries Brand Area-->
 ==================================---*/
 .brand-area {
     position: relative;
@@ -1622,7 +1623,7 @@ transform: rotate(360deg);
 }
 
 /*---=================================
-   <!--Echofy Team Area-->
+   <!--Greenoma Industries Team Area-->
 ==================================---*/
 .team-area {
     padding: 192px 0 125px;
@@ -1729,13 +1730,13 @@ transform: rotate(360deg);
 
 
 /*---=================================
-   <!--Echofy Blog Area-->
+   <!--Greenoma Industries Blog Area-->
 ==================================---*/
 .blog-area {
     padding: 113px 0 103px;
 }
 
-.blog-area .echofy-button {
+.blog-area .Greenoma Industries-button {
     margin-top: 60px;
     display: inline-block;
     float: right;
@@ -1821,13 +1822,14 @@ transform: rotate(360deg);
 
 
 /*---=================================
-   <!--Echofy Footer Area-->
+   <!--Greenoma Industries Footer Area-->
 ==================================---*/
 .footer-area {
-    background: url(../images/home1/footer-bg.jpg);
+    /* background: url(../images/home1/footer-bg.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     padding: 125px 0 0px;
+    background-color: green;
 }
 
 .footer-social-address {
@@ -2027,7 +2029,7 @@ p.footer-desc {
 
 
 /*---==============================================================
-   <!--Echofy Home Two Area-->
+   <!--Greenoma Industries Home Two Area-->
 ===============================================================---*/
 .top-header-area.home-two {
     background-color: #001819;
@@ -2083,7 +2085,7 @@ p.footer-desc {
 
 
 /*---=================================
-   <!--Echofy Hero Area Home Two-->
+   <!--Greenoma Industries Hero Area Home Two-->
 ==================================---*/
 .hero-area.home-two {
     background: url(../images/home2/hero-bg.jpg);
@@ -2151,7 +2153,7 @@ p.footer-desc {
 
 
 /*---=================================
-   <!--Echofy About Area Home Two-->
+   <!--Greenoma Industries About Area Home Two-->
 ==================================---*/
 
 .home-two.about-area{
@@ -2286,14 +2288,14 @@ transform: rotate(360deg);
     margin-top: 6px;
 }
 
-.home-two.about-area .echofy-button {
+.home-two.about-area .Greenoma Industries-button {
     margin-top: 0;
     display: inline-block;
 }
 
 
 /*---=================================
-   <!--Echofy Servics Title Area Home Two-->
+   <!--Greenoma Industries Servics Title Area Home Two-->
 ==================================---*/
 .service-title-area {
     background: url(../images/home2/services-title-bg.jpg);
@@ -2324,7 +2326,7 @@ transform: rotate(360deg);
 
 
 /*---=================================
-   <!--Echofy Servics Area Home Two-->
+   <!--Greenoma Industries Servics Area Home Two-->
 ==================================---*/
 
 .service-area.home-two {
@@ -2475,7 +2477,7 @@ transform: rotate(360deg);
 
 
 /*---=================================
-   <!--Echofy Counter Area Home Two-->
+   <!--Greenoma Industries Counter Area Home Two-->
 ==================================---*/
 
 .home-two.counter-area {
@@ -2514,7 +2516,7 @@ transform: rotate(360deg);
 
 
 /*---=================================
-   <!--Echofy Project Area Home Two-->
+   <!--Greenoma Industries Project Area Home Two-->
 ==================================---*/
 .project-area.home-two {
     background: #fff;
@@ -2614,7 +2616,7 @@ transform: rotate(360deg);
 
 
 /*---=================================
-   <!--Echofy Faqs Area Home Two-->
+   <!--Greenoma Industries Faqs Area Home Two-->
 ==================================---*/
 .faqs-area {
     background: url(../images/home2/faqs-bg.jpg);
@@ -2632,7 +2634,7 @@ transform: rotate(360deg);
     margin-bottom: 36px;
 }
 
-.faqs-area .echofy-button {
+.faqs-area .Greenoma Industries-button {
     margin-top: 0;
     display: inline-block;
 }
@@ -2738,7 +2740,7 @@ transform: rotate(360deg);
 
 
 /*---=================================
-   <!--Echofy Brand Area Home Two-->
+   <!--Greenoma Industries Brand Area Home Two-->
 ==================================---*/
 .brand-area.home-two {
     padding: 100px 0 87px;
@@ -2756,7 +2758,7 @@ transform: rotate(360deg);
 
 
 /*---===============================================
-   <!--Echofy Donatione Title Area Home Two-->
+   <!--Greenoma Industries Donatione Title Area Home Two-->
 ===================================================---*/
 .donation-title-area {
     background: url(../images/home2/services-title-bg.jpg);
@@ -2786,7 +2788,7 @@ transform: rotate(360deg);
 }
 
 /*---=================================
-   <!--Echofy Donatione Area Home Two-->
+   <!--Greenoma Industries Donatione Area Home Two-->
 ==================================---*/
 .donation-area {
     background-color: #f1faf0;
@@ -2896,7 +2898,7 @@ span.price {
 
 
 /*---=================================
-   <!--Echofy Testimonial Area Home Two-->
+   <!--Greenoma Industries Testimonial Area Home Two-->
 ==================================---*/
 .home-two.testimonial-area {
   background:url(../images/home2/testi-bg.jpg);
@@ -2969,7 +2971,7 @@ span.price {
 
 
 /*---=================================
-   <!--Echofy Marquee Area Home Two-->
+   <!--Greenoma Industries Marquee Area Home Two-->
 ==================================---*/
 
 .home-two.marquee {
@@ -3011,16 +3013,16 @@ span.price {
 
 
 /*---=================================
-   <!--Echofy Footer Area Home Two-->
+   <!--Greenoma Industries Footer Area Home Two-->
 ==================================---*/
 
-.home-two.footer-area .echofy-button {
+.home-two.footer-area .Greenoma Industries-button {
     margin-top: 0;
     display: inherit;
     text-align: right;
 }
 
-.home-two.footer-area .echofy-button a {
+.home-two.footer-area .Greenoma Industries-button a {
     border: 1px solid #fff;
     background: transparent;
 }
@@ -3190,7 +3192,7 @@ span.price {
 
 
 /*---=====================================================================================
-   <!--Strat Echofy Home Three-->
+   <!--Strat Greenoma Industries Home Three-->
 ========================================================================================---*/
 .home-three.header-area {
     border-bottom: transparent;
@@ -3242,7 +3244,7 @@ span.price {
 
 
 /*---=================================
-   <!--Echofy Text Area Home Three-->
+   <!--Greenoma Industries Text Area Home Three-->
 ==================================---*/
 
 .home-three.text-area {
@@ -3274,7 +3276,7 @@ span.price {
 
 
 /*---=================================
-   <!--Echofy Hero Area Home Three-->
+   <!--Greenoma Industries Hero Area Home Three-->
 ==================================---*/
 
 .home-three.hero-area {
@@ -3294,11 +3296,11 @@ span.price {
     letter-spacing: 30px;
 }
 
-.style-two.echofy-button {
+.style-two.Greenoma Industries-button {
     margin-top: 28px;
 }
 
-.style-two.echofy-button a {
+.style-two.Greenoma Industries-button a {
     display: inline-block;
     background: #49AF45;
     color: #fff;
@@ -3310,11 +3312,11 @@ span.price {
     transition: 0.5s;
 }
 
-.style-two.echofy-button a:hover{
+.style-two.Greenoma Industries-button a:hover{
     color: #49AF45;
 }
 
-.style-two.echofy-button i {
+.style-two.Greenoma Industries-button i {
     display: inline-block;
     color: #fff;
     font-size: 18px;
@@ -3324,7 +3326,7 @@ span.price {
     transition: 0.5s;
 }
 
-.style-two.echofy-button a:hover i{
+.style-two.Greenoma Industries-button a:hover i{
     color: #49AF45;
 }
 
@@ -3332,7 +3334,7 @@ span.price {
 
 
 /*---=================================
-   <!--Echofy About Area Home Three-->
+   <!--Greenoma Industries About Area Home Three-->
 ==================================---*/
 .home-three.about-area{
     background: #fff;
@@ -3414,7 +3416,7 @@ span.price {
 
 
 /*---================================================
-   <!--Echofy service Title Area Home Three-->
+   <!--Greenoma Industries service Title Area Home Three-->
 ===================================================---*/
 .home-three.service-title-area {
     background: #F6F7F9;
@@ -3514,13 +3516,13 @@ span.price {
     transform: scale(1);
 }
 
-.home-three.services-area.echofy-button {
+.home-three.services-area.Greenoma Industries-button {
     margin-top: 58px;
 }
 
 
 /*---================================================
-   <!--Echofy Counter Area Home Three-->
+   <!--Greenoma Industries Counter Area Home Three-->
 ===================================================---*/
 .home-three.counter-area {
     background: url(../images/home3/counter-bg.jpg);
@@ -3582,7 +3584,7 @@ span.price {
 
 
 /*---================================================
-   <!--Echofy Project Area Home Three-->
+   <!--Greenoma Industries Project Area Home Three-->
 ===================================================---*/
 .home-three.project-area {
     background: #fff;
@@ -3597,7 +3599,7 @@ span.price {
     margin-bottom: 70px;
 }
 
-.home-three.project-area .style-two.echofy-button {
+.home-three.project-area .style-two.Greenoma Industries-button {
     float: right;
     margin-top: 44px;
 }
@@ -3648,7 +3650,7 @@ span.price {
 
 
 /*---================================================
-   <!--Echofy Skill Area Home Three-->
+   <!--Greenoma Industries Skill Area Home Three-->
 ===================================================---*/
 .home-three.skill-area {
     background: url(../images/home3/skills-bg.jpg);
@@ -3789,7 +3791,7 @@ span.price {
 
 
 /*---================================================
-   <!--Echofy Testimonial Area Home Three-->
+   <!--Greenoma Industries Testimonial Area Home Three-->
 ===================================================---*/
 .home-three.testimonial-area {
     background: url(../images/home3/testi-bg.jpg);
@@ -3854,7 +3856,7 @@ span.price {
 
 
 /*---================================================
-   <!--Echofy Faqs Area Home Three-->
+   <!--Greenoma Industries Faqs Area Home Three-->
 ===================================================---*/
 .home-three.faqs-area {
     background: #fff;
@@ -3876,7 +3878,7 @@ span.price {
 }
 
 /*---================================================
-   <!--Echofy Blog Area Home Three-->
+   <!--Greenoma Industries Blog Area Home Three-->
 ===================================================---*/
 .home-three.blog-area {
     background: #F5F7F9;
@@ -3972,7 +3974,7 @@ span.price {
 
 
 /*---================================================
-   <!--Echofy Footer Area Home Three-->
+   <!--Greenoma Industries Footer Area Home Three-->
 ===================================================---*/
 .home-three.footer-area {
     background: url(../images/home3/footer-bg.jpg);
@@ -4086,7 +4088,7 @@ span.price {
 }
 
 /*---================================================
-   <!--Echofy Strat Home Four Css-->
+   <!--Greenoma Industries Strat Home Four Css-->
 ===================================================---*/
 
 
@@ -4200,7 +4202,7 @@ span.price {
 
 
 /*---================================================
-   <!--Echofy Strat Hero Area Home Four Css-->
+   <!--Greenoma Industries Strat Hero Area Home Four Css-->
 ===================================================---*/
 
 .home-four.hero-area {
@@ -4260,11 +4262,11 @@ span.price {
     z-index: -1;
 }
 
-.style-three.echofy-button {
+.style-three.Greenoma Industries-button {
    display: inline-block;
 }
 
-.style-three.echofy-button a {
+.style-three.Greenoma Industries-button a {
     display: inline-block;
     background: #49AF45;
     color: #fff;
@@ -4274,15 +4276,15 @@ span.price {
     border-radius: 0;
 }
 
-.style-three.echofy-button a:hover{
+.style-three.Greenoma Industries-button a:hover{
     color:#49AF45;
 }
 
-.style-three.echofy-button i{
+.style-three.Greenoma Industries-button i{
     transition: 0.5s;
 }
 
-.style-three.echofy-button a:hover i{
+.style-three.Greenoma Industries-button a:hover i{
     color:#49AF45;
 }
 
@@ -4305,7 +4307,7 @@ span.price {
 }
 
 /*---================================================
-   <!--Echofy Strat Counter Area Home Four Css-->
+   <!--Greenoma Industries Strat Counter Area Home Four Css-->
 ===================================================---*/
 
 .home-four.counter-area{
@@ -4364,7 +4366,7 @@ span.price {
 
 
 /*---================================================
-   <!--Echofy Strat About Area Home Four Css-->
+   <!--Greenoma Industries Strat About Area Home Four Css-->
 ===================================================---*/
 .home-four.about-area {
     background: url(../images/home4/about-bg.jpg);
@@ -4467,7 +4469,7 @@ span.price {
 
 
 /*---================================================
-   <!--Echofy Strat Services Area Home Four Css-->
+   <!--Greenoma Industries Strat Services Area Home Four Css-->
 ===================================================---*/
 .home-four.service-area{
     background: #fff;
@@ -4507,7 +4509,7 @@ span.price {
 
 
 /*---================================================
-   <!--Echofy Strat Solar Text Area Home Four Css-->
+   <!--Greenoma Industries Strat Solar Text Area Home Four Css-->
 ===================================================---*/
 .home-four.solar-text-area {
     background: url(../images/home4/solar-text-bg.jpg);
@@ -4527,7 +4529,7 @@ span.price {
 
 
 /*---================================================
-   <!--Echofy Strat Skill Area Home Four Css-->
+   <!--Greenoma Industries Strat Skill Area Home Four Css-->
 ===================================================---*/
 .home-four.skill-area {
     background: url(../images/home4/skill-bg.jpg);
@@ -4600,7 +4602,7 @@ span.price {
 
 
 /*---================================================
-   <!--Echofy Strat Testimonial Area Home Four Css-->
+   <!--Greenoma Industries Strat Testimonial Area Home Four Css-->
 ===================================================---*/
 
 .home-four.testimonial-area {
@@ -4690,7 +4692,7 @@ span.price {
 
 
 /*---=====================================================
-   <!--Echofy Strat Info Area Home Four Css-->
+   <!--Greenoma Industries Strat Info Area Home Four Css-->
 =========================================================---*/
 
 .home-four.info-area .row.nariye-abu {
@@ -4738,7 +4740,7 @@ span.price {
 
 
 /*---=====================================================
-   <!--Echofy Strat Blog Area Home Four Css-->
+   <!--Greenoma Industries Strat Blog Area Home Four Css-->
 =========================================================---*/
 .home-four .blog-content {
     border: 1px solid rgba(0,24,25,0.1);
@@ -4799,7 +4801,7 @@ span.price {
 
 
 /*---=====================================================
-   <!--Echofy Strat Call-Do-Action Area Home Four Css-->
+   <!--Greenoma Industries Strat Call-Do-Action Area Home Four Css-->
 =========================================================---*/
 .home-four.call-do-action-area {
    background: url(../images/home4/call-do-action-bg.jpg);
@@ -4816,13 +4818,13 @@ span.price {
     font-weight: 600;
 }
 
-.home-four.call-do-action-area .style-three.echofy-button {
+.home-four.call-do-action-area .style-three.Greenoma Industries-button {
     display: inline-block;
     margin: 0;
     float: right;
 }
 
-.home-four.call-do-action-area .style-three.echofy-button a {
+.home-four.call-do-action-area .style-three.Greenoma Industries-button a {
     display: inline-block;
     background: #00181A;
     color: #fff;
@@ -4833,13 +4835,13 @@ span.price {
     transition: 0.5s;
 }
 
-.home-four.call-do-action-area .style-three.echofy-button a:hover{
+.home-four.call-do-action-area .style-three.Greenoma Industries-button a:hover{
     color: #00181A;
 }
 
 
 /*---=====================================================
-   <!--Echofy Strat Footer Area Home Four Css-->
+   <!--Greenoma Industries Strat Footer Area Home Four Css-->
 =========================================================---*/
 .home-four.footer-area {
     background: url(../images/home4/footer-bg.jpg);
@@ -4948,7 +4950,7 @@ span.price {
 
 
 /*---==================================================================================
-   <!--Echofy Strat Home Five Css-->
+   <!--Greenoma Industries Strat Home Five Css-->
 ========================================================================================---*/
 
 .home-five .top-header-menu ul li {
@@ -4985,7 +4987,7 @@ span.price {
 
 
 /*---=====================================================
-   <!--Echofy Strat Hero Area Home Five Css-->
+   <!--Greenoma Industries Strat Hero Area Home Five Css-->
 =========================================================---*/
 
 .home-five.hero-area {
@@ -5115,17 +5117,17 @@ span.price {
 }
 
 /*button-style*/
-.style-four.echofy-button{
+.style-four.Greenoma Industries-button{
     border-radius: 5px;
 }
 
-.style-four.echofy-button a {
+.style-four.Greenoma Industries-button a {
     text-transform: uppercase;
     font-size: 15px;
     border-radius: 0px;
 }
 
-.style-four.echofy-button i {
+.style-four.Greenoma Industries-button i {
     color: #fff;
     display: inline-block;
     position: relative;
@@ -5133,13 +5135,13 @@ span.price {
     transition: 0.5s;
 }
 
-.style-four.echofy-button a:hover i{
+.style-four.Greenoma Industries-button a:hover i{
     color:#49AF45;
 }
 
 
 /*---=====================================================
-   <!--Echofy Strat Video Area Home Five Css-->
+   <!--Greenoma Industries Strat Video Area Home Five Css-->
 =========================================================---*/
 .home-five.video-area {
     margin-top: -336px;
@@ -5183,7 +5185,7 @@ span.price {
 
 
 /*---=====================================================
-   <!--Echofy Strat Animal Area Home Five Css-->
+   <!--Greenoma Industries Strat Animal Area Home Five Css-->
 =========================================================---*/
 .home-five.animal-area {
     background: #F5F5F5;
@@ -5259,7 +5261,7 @@ span.price {
 
 
 /*---=====================================================
-   <!--Echofy Strat About Area Home Five Css-->
+   <!--Greenoma Industries Strat About Area Home Five Css-->
 =========================================================---*/
 .home-five.about-area {
     background: transparent;
@@ -5343,7 +5345,7 @@ span.price {
     margin-bottom: 8px;
 }
 
-.home-five.about-area .echofy-button {
+.home-five.about-area .Greenoma Industries-button {
     margin-top: 0;
 }
 
@@ -5426,7 +5428,7 @@ span.price {
 
 
 /*---=====================================================
-   <!--Echofy Strat Gallery Area Home Five Css-->
+   <!--Greenoma Industries Strat Gallery Area Home Five Css-->
 =========================================================---*/
 
 .home-five.gallery-area {
@@ -5437,7 +5439,7 @@ span.price {
     margin-bottom: 62px;
 }
 
-.home-five.gallery-area .style-four.echofy-button {
+.home-five.gallery-area .style-four.Greenoma Industries-button {
     float: right;
     margin-top: 50px;
 }
@@ -5494,14 +5496,14 @@ span.price {
 }
 
 /*---=====================================================
-   <!--Echofy Strat Contact info Area Home Five Css-->
+   <!--Greenoma Industries Strat Contact info Area Home Five Css-->
 =========================================================---*/
 .home-five.contact-info-area {
     background-color: #001819;
     padding: 53px 0 62px;
 }
 
-.home-five.contact-info-area .echofy-button {
+.home-five.contact-info-area .Greenoma Industries-button {
     margin-top: 0;
 }
 
@@ -5558,7 +5560,7 @@ span.price {
 
 
 /*---=====================================================
-   <!--Echofy Strat Event Area Home Five Css-->
+   <!--Greenoma Industries Strat Event Area Home Five Css-->
 =========================================================---*/
 .home-five.event-area {
     padding: 100px 0 100px;
@@ -5706,7 +5708,7 @@ span.price {
 
 
 /*---=====================================================
-   <!--Echofy Strat Donation Area Home Five Css-->
+   <!--Greenoma Industries Strat Donation Area Home Five Css-->
 =========================================================---*/
 .home-five.donation-area {
     background-color: #E9EBEA;
@@ -5782,7 +5784,7 @@ span.price {
 
 
 /*---=====================================================
-   <!--Echofy Strat Testimonial Area Home Five Css-->
+   <!--Greenoma Industries Strat Testimonial Area Home Five Css-->
 =========================================================---*/
 .home-five.testimonial-area {
     background: #fff;
@@ -5860,7 +5862,7 @@ span.price {
 
 
 /*---=====================================================
-   <!--Echofy Strat Video Area Home Five Css-->
+   <!--Greenoma Industries Strat Video Area Home Five Css-->
 =========================================================---*/
 .home-five.animal-video-area {
    background: url(../images/home5/animal-video-bg.jpg);
@@ -5874,7 +5876,7 @@ span.price {
     color: #fff;
 }
 
-.home-five.animal-video-area .echofy-button {
+.home-five.animal-video-area .Greenoma Industries-button {
     margin-top: 0;
 }
 
@@ -5912,7 +5914,7 @@ span.price {
 }
 
 /*---=====================================================
-   <!--Echofy Strat Blog Area Home Five Css-->
+   <!--Greenoma Industries Strat Blog Area Home Five Css-->
 =========================================================---*/
 
 .home-five.blog-area {
@@ -5985,7 +5987,7 @@ span.price {
 }
 
 /*---=====================================================
-   <!--Echofy Strat Footer Area Home Five Css-->
+   <!--Greenoma Industries Strat Footer Area Home Five Css-->
 =========================================================---*/
 .home-five.footer-area {
     background: #00181A;
@@ -6159,11 +6161,11 @@ span.price {
 
 
 /*---=====================================================
-   <!--Echofy Strat Breadcumb Area Css-->
+   <!--Greenoma Industries Strat Breadcumb Area Css-->
 =========================================================---*/
 
 .breadcumb-area {
-    background: url(../images/inner-images/breadcumb-bg.jpg);
+    background: url(../images/Index_Images/IndustryImg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -6224,7 +6226,7 @@ span.price {
 
 
 
-/*all-inner-pages-add-inner-class-css*/
+/*all-inner-Pages-add-inner-class-css*/
 
 .team-area.inner {
     margin-top: 0;
@@ -6262,7 +6264,7 @@ span.price {
     margin-bottom: 24px;
 }
 
-/*donation Area Inner pages*/
+/*donation Area Inner Pages*/
 
 .donation-area.inner {
     padding: 112px 0 103px;
@@ -6300,7 +6302,7 @@ span.price {
 
 
 /*---=====================================================
-   <!--Echofy Strat Services Details Area Css-->
+   <!--Greenoma Industries Strat Services Details Area Css-->
 =========================================================---*/
 
 .services-details-area {
@@ -6539,7 +6541,7 @@ p.services-details-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Project Details Area Css-->
+   <!--Greenoma Industries Strat Project Details Area Css-->
 =========================================================---*/
 
 .project-details-area {
@@ -6633,7 +6635,7 @@ a.project-details-text {
 
 
 /*---=====================================================
-   <!--Echofy Strat Blog Details Area Css-->
+   <!--Greenoma Industries Strat Blog Details Area Css-->
 =========================================================---*/
 .blog-details-area {
     padding: 100px 0 100px;
@@ -7149,7 +7151,7 @@ button.icons {
 
 
 /*---=====================================================
-   <!--Echofy Strat Donation Details Area Css-->
+   <!--Greenoma Industries Strat Donation Details Area Css-->
 =========================================================---*/
 .donation-details-area {
     padding: 100px 0 100px;
@@ -7523,7 +7525,7 @@ p.blog-list-desc {
 
 /*
 <!-- =================================== -->
-<!--Echofy Contact Area Css -->
+<!--Greenoma Industries Contact Area Css -->
 <!-- =================================== -->*/
 
 .contact-area {
@@ -7573,6 +7575,7 @@ p.blog-list-desc {
 .contact-info-content p {
     color: #fff;
     margin: 0;
+    justify-content: center;
 }
 
 .row.pagla-shahin {
@@ -7648,7 +7651,7 @@ p.blog-list-desc {
 
 
 /*---========================================================================
-   <!--Echofy Home Six  Css-->
+   <!--Greenoma Industries Home Six  Css-->
 ==================================================================---*/
 
 .home-six.header-area {
@@ -7706,7 +7709,7 @@ p.blog-list-desc {
 
 
 /*---==================================================
-   <!--Echofy Hero Area Home Six  Css-->
+   <!--Greenoma Industries Hero Area Home Six  Css-->
 ======================================================---*/
 
 .hero-area.home-six {
@@ -7734,17 +7737,17 @@ p.blog-list-desc {
 
 /*home-six button*/
 
-.echofy-button.style-five a {
+.Greenoma Industries-button.style-five a {
     border-radius: 46px;
     font-size: 17px;
     font-weight: 600;
 }
 
-.home-six .echofy-button a:before {
+.home-six .Greenoma Industries-button a:before {
     border-radius: 30px;
 }
 
-.echofy-button.style-five i {
+.Greenoma Industries-button.style-five i {
     display: inline-block;
     font-size: 24px;
     position: relative;
@@ -7754,7 +7757,7 @@ p.blog-list-desc {
 
 
 /*---==================================================
-   <!--Echofy Feature Area Home Six  Css-->
+   <!--Greenoma Industries Feature Area Home Six  Css-->
 ======================================================---*/
 .home-six .row.margin-top {
     margin-top: -67px;
@@ -7802,7 +7805,7 @@ p.blog-list-desc {
 
 
 /*---==================================================
-   <!--Echofy Abour Area Home Six  Css-->
+   <!--Greenoma Industries Abour Area Home Six  Css-->
 ======================================================---*/
 .home-six.about-area {
     background: #fff;
@@ -7837,7 +7840,7 @@ p.blog-list-desc {
     margin-right: 15px;
 }
 
-.home-six.about-area .echofy-button {
+.home-six.about-area .Greenoma Industries-button {
     margin-top: 48px;
     display: inline-block;
 }
@@ -7891,7 +7894,7 @@ p.blog-list-desc {
 
 
 /*---==================================================
-   <!--Echofy Services Title Area Home Six  Css-->
+   <!--Greenoma Industries Services Title Area Home Six  Css-->
 ======================================================---*/
 
 .home-six.services-title-area {
@@ -7984,7 +7987,7 @@ p.blog-list-desc {
 
 
 /*---==================================================
-   <!--Echofy Why Choose Area Home Six  Css-->
+   <!--Greenoma Industries Why Choose Area Home Six  Css-->
 ======================================================---*/
 
 .home-six.why-choose-area {
@@ -8027,7 +8030,7 @@ p.blog-list-desc {
 
 
 /*---==================================================
-   <!--Echofy Pricing Area Home Six  Css-->
+   <!--Greenoma Industries Pricing Area Home Six  Css-->
 ======================================================---*/
 
 .home-six.pricing-area {
@@ -8088,13 +8091,13 @@ p.blog-list-desc {
     border-radius: 50%;
 }
 
-.home-six.pricing-area .single-pricing-box .echofy-button {
+.home-six.pricing-area .single-pricing-box .Greenoma Industries-button {
     margin-top: 40px;
     display: inherit;
     text-align: center;
 }
 
-.home-six.pricing-area .single-pricing-box .echofy-button a {
+.home-six.pricing-area .single-pricing-box .Greenoma Industries-button a {
     padding: 15px 40px;
 }
 
@@ -8116,7 +8119,7 @@ p.blog-list-desc {
 
 
 /*---==================================================
-   <!--Echofy Team Area Home Six  Css-->
+   <!--Greenoma Industries Team Area Home Six  Css-->
 ======================================================---*/
 .home-six.team-area {
     padding: 122px 0 125px;
@@ -8227,7 +8230,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Skill Area Home Six Css-->
+   <!--Greenoma Industries Strat Skill Area Home Six Css-->
 =========================================================---*/
 
 .home-six.skill-area {
@@ -8318,7 +8321,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Testimonial Area Home Six Css-->
+   <!--Greenoma Industries Strat Testimonial Area Home Six Css-->
 =========================================================---*/
 .home-six.testimonial-area {
     background: #ffff;
@@ -8398,7 +8401,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Blog Area Home Six Css-->
+   <!--Greenoma Industries Strat Blog Area Home Six Css-->
 =========================================================---*/
 
 .home-six.blog-area {
@@ -8528,7 +8531,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Contact Area Home Six Css-->
+   <!--Greenoma Industries Strat Contact Area Home Six Css-->
 =========================================================---*/
 .home-six.contact-area {
     padding: 102px 0 125px;
@@ -8560,7 +8563,7 @@ p.blog-list-desc {
     line-height: 48px;
 }
 
-.home-six.contact-area .echofy-button.style-five a {
+.home-six.contact-area .Greenoma Industries-button.style-five a {
     background: #00181A;
 }
 
@@ -8614,7 +8617,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Footer Area Home Six Css-->
+   <!--Greenoma Industries Strat Footer Area Home Six Css-->
 =========================================================---*/
 .home-six.footer-area {
     background:url(../images/home6/footer-bg.jpg);
@@ -8740,7 +8743,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat home Seven Area  Css-->
+   <!--Greenoma Industries Strat home Seven Area  Css-->
 =========================================================---*/
 
 
@@ -8800,7 +8803,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Hero Area home Seven  Css-->
+   <!--Greenoma Industries Strat Hero Area home Seven  Css-->
 =========================================================---*/
 .hero-area.home-seven {
     background: url(../images/home7/hero-bg.jpg);
@@ -8878,7 +8881,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Feature Area home Seven  Css-->
+   <!--Greenoma Industries Strat Feature Area home Seven  Css-->
 =========================================================---*/
 
 .feature-area.home-six.seven {
@@ -8927,7 +8930,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat About Area home Seven Css-->
+   <!--Greenoma Industries Strat About Area home Seven Css-->
 =========================================================---*/
 
 .home-seven .skill:before {
@@ -8948,7 +8951,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat About Area home Seven Css-->
+   <!--Greenoma Industries Strat About Area home Seven Css-->
 =========================================================---*/
 .home-seven.services-title-area {
     background: #F7F7F7;
@@ -8967,7 +8970,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Project Area home Seven Css-->
+   <!--Greenoma Industries Strat Project Area home Seven Css-->
 =========================================================---*/
 .project-area.home-seven {
     background: #fff;
@@ -9037,7 +9040,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Why Choose Area home Seven Css-->
+   <!--Greenoma Industries Strat Why Choose Area home Seven Css-->
 =========================================================---*/
 .why-choose-area.home-seven {
     background: url(../images/home7/why-choose-bg.png);
@@ -9071,7 +9074,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Counter Area home Seven Css-->
+   <!--Greenoma Industries Strat Counter Area home Seven Css-->
 =========================================================---*/
 .counter-area.home-seven {
     background: #49AE45;
@@ -9127,7 +9130,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Testimonial Area home Seven Css-->
+   <!--Greenoma Industries Strat Testimonial Area home Seven Css-->
 =========================================================---*/
 .home-seven.testimonial-area {
     background: #00181A;
@@ -9229,7 +9232,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Faqs Area home Seven Css-->
+   <!--Greenoma Industries Strat Faqs Area home Seven Css-->
 =========================================================---*/
 .home-seven.faqs-area {
     background: url(../images/home7/faqs-bg.jpg);
@@ -9374,7 +9377,7 @@ p.blog-list-desc {
 
 
 /*---=====================================================
-   <!--Echofy Strat Marque Area home Seven Css-->
+   <!--Greenoma Industries Strat Marque Area home Seven Css-->
 =========================================================---*/
 .marque-area.home-seven {
     background: url(../images/home7/marque-bg.png);
@@ -9728,7 +9731,7 @@ span.flaticon-multiply i {
 
 
 /*===========================
-<-- Echofy Sidbar Css -->
+<-- Greenoma Industries Sidbar Css -->
 =============================*/
 
 .xs-sidebar-group .xs-overlay {
@@ -10047,7 +10050,7 @@ ul.social-box li a:hover {
     transition: 1s 1.4s ease;
 }
 
-/*/ When page loaded /*/
+/*/ When Page loaded /*/
 .loaded .loder-section.left-section {
     left: -100%;
 }
